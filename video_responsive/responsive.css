@@ -1,0 +1,719 @@
+@media (min-width: 320px) and (max-width: 576.99px) {
+  /* =============================================================
+                Video  navbar css start
+============================================================== */
+
+  .navbar-btn {
+    color: #ffffff;
+    font-size: 33px;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .navbar-nav .nav-link {
+    color: #e6e6e6 !important;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .navbar-expand-lg {
+    position: relative;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    gap: 5px;
+    padding: 15px 60px;
+    background-color: rgba(176, 6, 71, 0.893);
+    width: fit-content;
+    border-radius: 5%;
+    position: absolute;
+    top: 85px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+  }
+  .navbar-expand-lg .navbar-btn:hover .navbar-nav {
+  }
+  .navbar-light .navbar-toggler {
+    border-color: transparent;
+  }
+
+  /* =============================================================
+                Video  navbar css end
+============================================================== */
+  /* =============================================================
+                text animation  css start
+============================================================== */
+  #typewriter {
+    font-size: 22px !important;
+  }
+  .text-animation {
+    margin-top: 125px;
+    text-align: center;
+  }
+  .text-name {
+    font-size: 59px;
+    padding-bottom: 28px;
+  }
+  /* =============================================================
+                text animation  css end
+============================================================== */
+  /* =============================================================
+                language css start
+============================================================== */
+
+  .lang {
+    opacity: 0;
+  }
+
+  /* =============================================================
+                language css end
+============================================================== */
+  /* =============================================================
+                site social css start
+============================================================== */
+  #social-icon {
+    opacity: 0;
+    overflow: hidden;
+  }
+  /* =============================================================
+               site social css end
+============================================================== */
+}
+/* =============================================================
+                Extra small devices design end
+============================================================== */
+/* ============================================================= small devices design start
+============================================================== */
+@media (min-width: 577px) and (max-width: 767.99px) {
+  /* =============================================================
+                Video  navbar css start
+============================================================== */
+
+  .navbar-btn {
+    color: #ffffff;
+    font-size: 33px;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .navbar-nav .nav-link {
+    color: #e6e6e6 !important;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .navbar-expand-lg {
+    position: relative;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    gap: 5px;
+    padding: 15px 60px;
+    background-color: rgba(176, 6, 71, 0.893);
+    width: fit-content;
+    border-radius: 5%;
+    position: absolute;
+    top: 85px;
+    left: 100%;
+    transform: translateX(-130%);
+    z-index: 10;
+  }
+  .navbar-expand-lg .navbar-btn:hover .navbar-nav {
+  }
+  .navbar-light .navbar-toggler {
+    border-color: transparent;
+  }
+
+  /* =============================================================
+                Video  navbar css end
+============================================================== */
+  /* =============================================================
+                text animation  css start
+============================================================== */
+
+  .text-animation {
+    margin-top: 125px;
+    text-align: center;
+  }
+  .text-name {
+    font-size: 70px;
+    padding-bottom: 28px;
+  }
+  /* =============================================================
+                text animation  css end
+============================================================== */
+  /* =============================================================
+                language css start
+============================================================== */
+
+  .lang {
+    opacity: 0;
+  }
+
+  /* =============================================================
+                language css end
+============================================================== */
+  /* =============================================================
+                site social css start
+============================================================== */
+  #social-icon {
+    opacity: 0;
+    overflow: hidden;
+  }
+  /* =============================================================
+               site social css end
+============================================================== */
+}
+
+/* =============================================================
+                small devices design end
+============================================================== */
+/* =============================================================
+                Middle devices design start
+============================================================== */
+@media (min-width: 768px) and (max-width: 991.99px) {
+  /* =============================================================
+                Video navnar css start
+============================================================== */
+
+  .navbar-btn {
+    color: #ffffff;
+    font-size: 33px;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .navbar-nav .nav-link {
+    color: #e6e6e6 !important;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .navbar-expand-lg {
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    column-gap: 41px;
+    display: flex !important;
+    flex-direction: row !important;
+    padding: 8px 25px;
+    background-color: rgba(176, 6, 71, 0.893);
+    width: fit-content;
+    margin-right: 17px;
+    z-index: 10;
+  }
+  .navbar-expand-lg .navbar-btn:hover .navbar-nav {
+  }
+  .navbar-light .navbar-toggler {
+    border-color: transparent;
+  }
+
+  /* =============================================================
+                Video  navbar css end
+============================================================== */
+  /* =============================================================
+                all element here  part start
+============================================================== */
+  .video-wrapper::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.62);
+    z-index: 0;
+  }
+  /* =============================================================
+                all element here part end
+============================================================== */
+  /* =============================================================
+                text animation   start
+============================================================== */
+
+  #typewriter {
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    border-right: 2px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    width: fit-content;
+    animation: blinkCursor 0.7s steps(1) infinite;
+    z-index: 1;
+    color: #ffffff;
+  }
+  @keyframes blinkCursor {
+    0% {
+      border-color: #e6e6e6;
+    }
+    50% {
+      border-color: transparent;
+    }
+    100% {
+      border-color: #ffffff;
+    }
+  }
+
+  .text-animation {
+    margin-top: 74px;
+  }
+  .text-name {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    padding-bottom: 27px;
+    z-index: 1;
+  }
+  /* =============================================================
+                  text animation css start
+============================================================== */
+  /* =============================================================
+                 languge css start
+============================================================== */
+  .language .lang-elm {
+    color: #ffffff !important;
+    z-index: 1;
+  }
+  /* .lang {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+} */
+
+  .lang {
+    gap: 25px;
+  }
+
+  .lang-elm {
+    font-size: 18px;
+  }
+  .language {
+    margin-top: 60px;
+  }
+  /* =============================================================
+                 languge css end
+============================================================== */
+
+  /* =============================================================
+                site social start
+============================================================== */
+  #social-icon {
+    z-index: 1;
+  }
+  .icon {
+    top: 290px;
+    gap: 10px;
+    right: 50%;
+    transform: translateX(42%);
+  }
+  .icon li a {
+    font-size: 25px;
+  }
+  /* =============================================================
+                site social end
+============================================================== */
+}
+/* =============================================================
+                Middle devices design end
+============================================================== */
+/* =============================================================
+                large devices design end
+============================================================== */
+@media (min-width: 992px) and (max-width: 1199.99) {
+  /* =============================================================
+                Video navnar css start
+============================================================== */
+
+  .all-elm-here {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    color: #fff;
+  }
+
+  .video-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+  .ifrem-body {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .navbar-light .nav-link {
+    width: fit-content;
+  }
+
+  .navbar-nav .nav-link {
+    color: #e6e6e6 !important;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    gap: 33px;
+  }
+  .nav-icon-name {
+    font: 24px;
+    color: #dfff00;
+    text-transform: uppercase;
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    font-weight: 600;
+    font-size: 31px;
+  }
+  .nav-icon {
+    color: #dfff00;
+    font-size: 38px;
+  }
+
+  /* =============================================================
+                Video  navbar css end
+============================================================== */
+  /* =============================================================
+                all element here  part start
+============================================================== */
+  .video-wrapper::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.62);
+    z-index: 0;
+  }
+  /* =============================================================
+                all element here part end
+============================================================== */
+  /* =============================================================
+                text animation   start
+============================================================== */
+
+  #typewriter {
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    border-right: 2px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    width: fit-content;
+    animation: blinkCursor 0.7s steps(1) infinite;
+    z-index: 1;
+    color: #ffffff;
+  }
+  @keyframes blinkCursor {
+    0% {
+      border-color: #e6e6e6;
+    }
+    50% {
+      border-color: transparent;
+    }
+    100% {
+      border-color: #ffffff;
+    }
+  }
+
+  .text-animation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin-top: 240px;
+  }
+  .text-name {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    padding-bottom: 27px;
+    z-index: 1;
+  }
+  /* =============================================================
+                  text animation css start
+============================================================== */
+  /* =============================================================
+                 languge css start
+============================================================== */
+  .language .lang-elm {
+    color: #ffffff !important;
+    z-index: 1;
+  }
+  /* .lang {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+} */
+
+  .lang {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 56px;
+    writing-mode: vertical-rl;
+    transform: rotate(360deg); /* যাতে লেখাগুলো উপর থেকে নিচে পড়ে */
+    /* flex-direction: row-reverse; */
+  }
+
+  .lang-elm {
+    text-decoration: none;
+    color: #f3f3f3;
+    font-weight: 500;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* padding: 5px 10px; */
+    /* border-radius: 4px; */
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+  }
+  .language {
+    margin-top: 60px;
+  }
+  /* =============================================================
+                 languge css end
+============================================================== */
+
+  /* =============================================================
+                site social start
+============================================================== */
+  #social-icon {
+    z-index: 1;
+  }
+  .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 375px;
+    right: auto !important;
+    gap: 20px;
+  }
+  .icon li a {
+    font-size: 30px;
+    color: #f3f3f3;
+  }
+  /* =============================================================
+                site social end
+============================================================== */
+}
+/* =============================================================
+                large devices design end
+============================================================== */
+
+/* =============================================================
+               Extra large devices design end
+============================================================== */
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+  /* =============================================================
+                Video navnar css start
+============================================================== */
+
+  .all-elm-here {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    color: #fff;
+  }
+
+  .video-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+  .ifrem-body {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .navbar-light .nav-link {
+    width: fit-content;
+  }
+
+  .navbar-nav .nav-link {
+    color: #e6e6e6 !important;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    gap: 33px;
+  }
+  .nav-icon-name {
+    font: 24px;
+    color: #dfff00;
+    text-transform: uppercase;
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    font-weight: 600;
+    font-size: 31px;
+  }
+  .nav-icon {
+    color: #dfff00;
+    font-size: 38px;
+  }
+
+  /* =============================================================
+                Video  navbar css end
+============================================================== */
+  /* =============================================================
+                all element here  part start
+============================================================== */
+  .video-wrapper::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.62);
+    z-index: 0;
+  }
+  /* =============================================================
+                all element here part end
+============================================================== */
+  /* =============================================================
+                text animation   start
+============================================================== */
+
+  #typewriter {
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    border-right: 2px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    width: fit-content;
+    animation: blinkCursor 0.7s steps(1) infinite;
+    z-index: 1;
+    color: #ffffff;
+  }
+  @keyframes blinkCursor {
+    0% {
+      border-color: #e6e6e6;
+    }
+    50% {
+      border-color: transparent;
+    }
+    100% {
+      border-color: #ffffff;
+    }
+  }
+
+  .text-animation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin-top: 240px;
+  }
+  .text-name {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    padding-bottom: 27px;
+    z-index: 1;
+  }
+  /* =============================================================
+                  text animation css start
+============================================================== */
+  /* =============================================================
+                 languge css start
+============================================================== */
+  .language .lang-elm {
+    color: #ffffff !important;
+    z-index: 1;
+  }
+  /* .lang {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+} */
+
+  .lang {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 56px;
+    writing-mode: vertical-rl;
+    transform: rotate(360deg); /* যাতে লেখাগুলো উপর থেকে নিচে পড়ে */
+    /* flex-direction: row-reverse; */
+  }
+
+  .lang-elm {
+    text-decoration: none;
+    color: #f3f3f3;
+    font-weight: 500;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* padding: 5px 10px; */
+    /* border-radius: 4px; */
+    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+  }
+  .language {
+    margin-top: 60px;
+  }
+  /* =============================================================
+                 languge css end
+============================================================== */
+
+  /* =============================================================
+                site social start
+============================================================== */
+  #social-icon {
+    z-index: 1;
+  }
+  .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 375px;
+    right: 5% !important;
+    transform: translateX(-5%);
+    gap: 20px;
+  }
+  .icon li a {
+    font-size: 30px;
+    color: #f3f3f3;
+  }
+  /* =============================================================
+                site social end
+============================================================== */
+}
+/* =============================================================
+              Extra  large devices design end
+============================================================== */
+/* =============================================================
+              Extra Extra  large devices design start
+============================================================== */
+@media (min-width: 1400px) {
+  .icon {
+    top: 395px;
+    right: 5%;
+  }
+}
+
+/* =============================================================
+              Extra Extra  large devices design end
+============================================================== */

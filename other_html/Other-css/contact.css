@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+li {
+  list-style: none;
+}
+body {
+  background: #181818 !important;
+}
+/* ============================== connon css part end=========================== */
+/* ============================== contact heading part start=========================== */
+#information {
+  padding: 100px 0 90px;
+}
+
+.heading-info {
+  /* background-color: red; */
+  text-align: center;
+}
+
+.heading-info p {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #c8cbcd;
+  line-height: 30px;
+}
+.heading-info h1 {
+  font-size: 38px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  line-height: 54px;
+  padding-bottom: 28px;
+}
+.heading_animation {
+  margin: 0 auto;
+  height: 5px;
+  width: 120px;
+  background: #39ff14;
+}
+
+#contact_heading {
+  padding: 100px 0 85px;
+}
+
+/* ============================== contact heading part end=========================== */
+/* ============================== contact body part start=========================== */
+.message-heading {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+.message-top-part {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+}
+.message-top-part input:focus {
+  outline: none;
+}
+.message-top-part input {
+  padding: 10px 20px;
+  background: rgb(35, 34, 34);
+  border: 1px solid #000000;
+  color: #DFFF00 !important;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+}
+
+.message-top-part input::placeholder {
+  color: #ffffff;
+}
+.middle-part {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+  gap: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.middle-text:focus {
+  outline: none;
+}
+
+.middle-text::placeholder {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+.middle-text {
+  padding: 13px 20px;
+  color: #DFFF00;
+  background: rgb(35, 34, 34);
+  border: 1px solid #000000;
+  font-family: "Poppins", sans-serif;
+}
+#text-area:focus {
+  outline: none;
+}
+#text-area::placeholder {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+#text-area {
+  height: 200px;
+  background: rgb(35, 34, 34);
+  border: 1px solid #000000;
+  padding: 15px 20px;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  color: #DFFF00;
+}
+.message-btn {
+  color: #ffffff;
+  background: #31a81c;
+  width: fit-content;
+  padding: 15px 35px;
+  border-radius: 41px;
+  border: 1px solid #31a81c;
+}
+.message-btn:hover {
+  color: #ffffff;
+  background: transparent;
+  border-color: #ffffff;
+}
+.contact-info h4 {
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+.contact-info p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  line-height: 30px;
+  padding-bottom: 26px;
+}
+.icon-info {
+  color: #2cc811;
+  display: flex;
+  flex-direction: column;
+  border-right: 5px solid rgb(80, 77, 77);
+  width: fit-content;
+  font-size: 38px;
+  padding-right: 48px;
+  row-gap: 50px;
+}
+
+.self-info {
+  display: flex;
+  align-items: start;
+}
+
+.text-info {
+  /* display: flex; */
+  /* flex-direction: column; */
+  padding-left: 48px;
+  /* align-items: start; */
+}
+
+.text-elm h5 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  line-height: 30px;
+}
+.text-elm p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: rgba(255, 255, 255, 0.625);
+  line-height: 30px;
+}
+.self-info{
+  margin-top: 30px;
+}
+.contact-row{
+  --bs-gutter-x:50px;
+}
+/* ============================== contact body part end=========================== */
+/* ============================== contact body part start=========================== */
+/* ============================== contact body part end=========================== */
+/* ============================== contact body part start=========================== */
+/* ============================== contact body part end=========================== */

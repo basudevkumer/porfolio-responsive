@@ -1,0 +1,345 @@
+/* ========================================
+          For home Page responsive design start
+=========================================== */
+/* ==================================================
+              Extra Small device design  start
+=================================================== */
+@media (min-width: 320px) and (max-width: 576.99px) {
+  /* ==================================================
+              Info part  start
+  =================================================== */
+  .bannar-img {
+    text-align: center;
+  }
+  .bannar-img img {
+    border-radius: 5%;
+  }
+  .bannar-heading {
+    color: #25bd25;
+    padding-top: 72px;
+  }
+  .bannar-heading-two {
+    padding: 8px 0 10px;
+
+    font-size: 24px;
+    line-height: 34px;
+    width: auto;
+  }
+  .bannar-pragraph {
+    padding-bottom: 43px;
+    font-size: 14px;
+
+    width: auto;
+    line-height: 24px;
+  }
+  .info {
+    gap: 9px;
+    flex-direction: column;
+  }
+
+  .common-ntn {
+    font-size: 14px;
+    padding: 13px 28px;
+    white-space: nowrap;
+  }
+  .info-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .info-last-line {
+    width: 71px;
+  }
+  .info-footer-icon {
+    margin-left: 0px;
+  }
+  .common-ntn:hover {
+    color: #ffffff;
+    border-color: #24a70d;
+    background: #24a70d;
+  }
+  /* ==================================================
+              Info part End
+  =================================================== */
+  /* ==================================================
+              Services part start
+  =================================================== */
+  .services-heading {
+    font-size: 44px;
+  }
+  .services-icon-pragarph {
+    width: auto;
+  }
+  .about-services-element::before {
+    opacity: 1 !important;
+    width: 100%;
+  }
+
+  .about-services-element:hover::before {
+    width: 100%;
+    opacity: 1;
+  }
+  .services-heading {
+	font-size: 35px;
+}
+
+  /* ==================================================
+              Services part End
+  =================================================== */
+}
+
+/* ==================================================
+              Extra Small device design End
+=================================================== */
+/* ==================================================
+               Small device design  start
+=================================================== */
+@media (min-width: 577px) and (max-width: 767.99px) {
+  /* ==================================================
+              Info part  start
+  =================================================== */
+  .heading-info {
+    padding: 60px 0 86px;
+  }
+  .bannar-img {
+    text-align: center;
+  }
+  .bannar-img img {
+    border-radius: 5%;
+  }
+  .bannar-heading {
+    color: #25bd25;
+    padding-top: 72px;
+  }
+  .bannar-heading-two {
+    padding: 8px 0 10px;
+
+    font-size: 24px;
+    line-height: 34px;
+    width: auto;
+  }
+  .bannar-pragraph {
+    padding-bottom: 43px;
+    font-size: 14px;
+
+    width: auto;
+    line-height: 24px;
+  }
+  .info {
+    gap: 9px;
+    flex-direction: column;
+  }
+  .common-ntn:hover {
+    color: #ffffff;
+    border-color: #24a70d;
+    background: #24a70d;
+  }
+
+  .common-ntn {
+    font-size: 14px;
+    padding: 13px 28px;
+    white-space: nowrap;
+  }
+  .info-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .info-last-line {
+    width: 71px;
+  }
+  .info-footer-icon {
+    margin-left: 0px;
+  }
+  /* ==================================================
+              Info part End
+  =================================================== */
+  /* ==================================================
+              Services part start
+  =================================================== */
+  .services-heading {
+    font-size: 44px;
+  }
+  .services-icon-pragarph {
+    width: auto;
+  }
+  .about-services-element::before {
+    opacity: 1 !important;
+    width: 100%;
+  }
+
+  .about-services-element:hover::before {
+    width: 100%;
+    opacity: 1;
+  }
+  /* ==================================================
+              Services part End
+  =================================================== */
+  /* ==================================================
+              spb part End
+  =================================================== */
+  .spb-elm {
+    padding: 47px 0;
+  }
+  /* ==================================================
+              spb part End
+  =================================================== */
+}
+
+/* ==================================================
+               Small device design End
+=================================================== */
+/* ==================================================
+               Medium device design  start
+=================================================== */
+@media (min-width: 768px) and (max-width: 991.99px) {
+  /* ==================================================
+              Info part  start
+  =================================================== */
+  .heading-info {
+    padding: 60px 0 86px;
+  }
+  .bannar-img {
+    text-align: center;
+  }
+  .bannar-img img {
+    border-radius: 3%;
+    width: 75%;
+  }
+  .bannar-heading {
+    color: #25bd25;
+    padding-top: 72px;
+  }
+  .bannar-heading-two {
+    font-size: 35px;
+    line-height: 44px;
+    width: auto;
+  }
+  .bannar-pragraph {
+    padding-bottom: 43px;
+    font-size: 16px;
+    width: auto;
+    line-height: 24px;
+  }
+  .info {
+    gap: 9px;
+    flex-direction: column;
+  }
+  .info-footer-icon ul li a {
+    font-size: 23px;
+  }
+  .common-ntn:hover {
+    color: #ffffff;
+    border-color: #24a70d;
+    background: #24a70d;
+  }
+
+  .common-ntn {
+    font-size: 15px;
+    padding: 15px 37px;
+    white-space: nowrap;
+  }
+  .info-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .info-last-line {
+    width: 71px;
+  }
+  .info-footer-icon {
+    margin-left: 0px;
+  }
+  /* ==================================================
+              Info part End
+  =================================================== */
+  /* ==================================================
+              Services part start
+  =================================================== */
+  .services-heading {
+    font-size: 44px;
+  }
+  .services-icon-pragarph {
+    width: auto;
+  }
+  .about-services-element::before {
+    opacity: 1 !important;
+    width: 100%;
+  }
+
+  .about-services-element:hover::before {
+    width: 100%;
+    opacity: 1;
+  }
+  .services-icon-text {
+    font-size: 24px;
+  }
+  /* ==================================================
+              Services part End
+  =================================================== */
+  /* ==================================================
+              spb part End
+  =================================================== */
+  .spb-elm {
+    padding: 47px 0;
+  }
+  /* ==================================================
+              spb part End
+  =================================================== */
+}
+
+/* ==================================================
+               Medium device design End
+=================================================== */
+/* ==================================================
+               large device design  start
+=================================================== */
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  /* ==================================================
+              Info part  start
+  =================================================== */
+  .info-footer-icon ul li a {
+    font-size: 26px;
+  }
+
+  /* ==================================================
+              Info part End
+  =================================================== */
+  /* ==================================================
+              Services part start
+  =================================================== */
+  .services-icon-pragarph {
+    width: 287px;
+  }
+  .services-icon-text {
+    font-size: 20px;
+  }
+  /* ==================================================
+              Services part End
+  =================================================== */
+}
+
+/* ==================================================
+               large device design End
+=================================================== */
+/* ==================================================
+                Extra large device design End
+=================================================== */
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+  /* ==================================================
+               Info design  start
+=================================================== */
+  .bannar-img img {
+    width: 96%;
+  }
+  /* ==================================================
+               Info  design End
+=================================================== */
+}
+/* ==================================================
+               Extra  large device design End
+=================================================== */
+
+/* ========================================
+          For home Page responsive design End
+=========================================== */

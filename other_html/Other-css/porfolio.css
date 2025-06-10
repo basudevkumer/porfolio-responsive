@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+li {
+  list-style: none;
+}
+body {
+  background: #181818 !important;
+}
+
+/* ================================= common css =========================== */
+/* ================================= portfolio  css part start =========================== */
+#information {
+  padding: 100px 0 90px;
+}
+
+.heading-info {
+  /* background-color: red; */
+  text-align: center;
+}
+
+.heading-info p {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #c8cbcd;
+  line-height: 30px;
+}
+.heading-info h1 {
+  font-size: 38px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  line-height: 54px;
+  padding-bottom: 28px;
+}
+.heading_animation {
+  margin: 0 auto;
+  height: 5px;
+  width: 120px;
+  background: #39ff14;
+}
+.card-text ul {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.card-text ul li {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  position: relative;
+}
+.card-text ul li::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #299e15;
+  opacity: 0;
+  transition: 0.2s all linear;
+}
+.card-text ul li:hover::before {
+  width: 100%;
+  opacity: 1;
+}
+.card-text ul li:hover {
+  color: #299e15;
+}
+
+/* ================================= portfolio  css part end =========================== */
+/* ================================= card   css part start =========================== */
+.card-img img {
+  width: 100%;
+}
+.card-row {
+  --bs-gutter-x: 52px;
+  --bs-gutter-y: 52px;
+  padding: 35px 0 70px;
+}
+
+.card-img {
+  width: 100%;
+}
+.card-elm {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-img-text {
+  text-align: center;
+  padding-top: 57%;
+  background: rgba(0, 0, 0, 0.828);
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.card-elm:hover .card-img-text {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+.card-img-text:hover {
+}
+.card-img-text a {
+  color: #299e15;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+}
+.card-img-text h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+/* ================================= card   css part end =========================== */
+/* ================================= card   css part start =========================== */
+/* ================================= card   css part end =========================== */

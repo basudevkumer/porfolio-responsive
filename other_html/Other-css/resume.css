@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+li {
+  list-style: none;
+}
+body {
+  background: #181818 !important;
+}
+
+/* ================================= common css =========================== */
+
+/* ======================================= resume heding part============================ */
+.heading-info {
+  /* background-color: red; */
+  text-align: center;
+}
+.heading_animation {
+}
+#resume-header {
+  margin-top: 61px;
+}
+.heading-info p {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #c8cbcd;
+  line-height: 30px;
+}
+.heading-info h1 {
+  font-size: 38px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  line-height: 54px;
+  padding-bottom: 20px;
+}
+.heading_animation {
+  margin: 0 auto;
+  height: 5px;
+  width: 120px;
+  background: #39ff14;
+}
+
+.sum-power {
+  display: flex;
+  position: relative;
+}
+
+@keyframes navrun {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  100% {
+    top: 0;
+    left: 100%;
+  }
+}
+.one {
+  position: absolute;
+  height: 100%;
+  width: 7px;
+  background: #181818;
+  left: 0;
+  top: 0;
+}
+.two {
+  position: absolute;
+  height: 100%;
+  width: 7px;
+  background: #39ff14;
+  left: 10px;
+  top: 0;
+}
+
+.three {
+  position: absolute;
+  height: 100%;
+  width: 7px;
+  background: #181818;
+  left: 0;
+  top: 0;
+}
+
+.heading-info h1 {
+  padding-top: 3px;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0 !important;
+}
+/* ===================================== resume heding part end======================================= */
+/* ===================================== education heding part start======================================= */
+
+#education {
+  padding: 110px 0;
+}
+
+.edu-heading-three {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 100%;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 35px;
+}
+.edu-heading-four {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.edu-pragraph:nth-child(2) {
+  margin: 15px 0 !important;
+}
+.edu-pragraph {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.541);
+}
+.edu-text-icon {
+  color: #24a70d;
+  font-size: 34px;
+}
+.edu-text-icon {
+  display: flex;
+  align-items: start !important;
+  column-gap: 63px;
+  background-color: rgba(45, 65, 50, 0.329);
+}
+.edu-element {
+  padding: 0 !important;
+  display: flex;
+  gap: 80px;
+}
+.edu-text {
+  padding-top: 13px;
+}
+.edu-text-icon:nth-child(3) {
+  border-bottom: 2px solid rgba(167, 28, 28, 0.623);
+  border-top: 2px solid rgba(167, 28, 28, 0.623);
+}
+.edu-text-icon {
+  position: relative;
+  padding: 50px 0;
+}
+.edu-text-icon::before {
+  position: absolute;
+  content: " ";
+  top: 0px;
+  left: 0;
+  height: 100%;
+  width: 4px;
+  background: #24a70d !important;
+}
+/* ===================================== education heding part end======================================= */
+/* ===================================== service heding part start======================================= */
+
+#skill {
+  padding: 60px 0;
+}
+
+.services-pragraph {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: rgba(171, 169, 169, 0.878);
+  line-height: 100%;
+}
+.services-heading {
+  font-size: 52px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  line-height: 100%;
+  padding-top: 25px;
+}
+.skill-text {
+  padding-bottom: 50px;
+}
+.skill-elm {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: rgba(255, 255, 255, 0.856);
+  line-height: 100%;
+  padding: 10px;
+}
+.row-skill-persent {
+  row-gap: 47px;
+}
+/* ===================================== service heding part end======================================= */
+/* ===================================== office   part start======================================= */
+.office-pragraph:nth-child(2){
+  padding:20px 0;
+}
+.office-pragraph{
+    font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: rgba(255, 255, 255, 0.856);
+  line-height:25px;
+}
+.office-heading{
+    font-size: 30px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color:#ffffff;
+  line-height: 100%;
+  
+}
+#office{
+  padding: 100px 0;
+}
+/* ===================================== office   part end======================================= */
+/* ===================================== education heding part start======================================= */
+/* ===================================== education heding part end======================================= */
+/* ===================================== education heding part start======================================= */
+/* ===================================== education heding part end======================================= */
