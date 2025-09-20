@@ -596,3 +596,244 @@
 /* ========================================
           For Portfolio Page responsive design End
 =========================================== */
+/* ========================================
+          For Blog Page responsive design Start
+=========================================== */
+/* ========================================
+        Extra Small Devices design Start
+=========================================== */
+@media (min-width: 320px) and (max-width: 575.99px) {
+  /* ========================================
+        Blog Heading Part Start
+=========================================== */
+  .blog-text p {
+    font-size: 14px;
+  }
+  /* ========================================
+        Blog Heading Part End
+=========================================== */
+}
+/* ========================================
+        Extra Small Devices design End
+=========================================== */
+
+/* ========================================
+          For Blog Page responsive design End
+=========================================== */
+/* ========================================
+          For Portfolio Page responsive design End
+=========================================== */
+/* ========================================
+          For Contact Page responsive design Start
+=========================================== */
+/* ========================================
+        Extra Small Devices design Start
+=========================================== */
+@media (min-width: 320px) and (max-width: 575.99px) {
+  /* ========================================
+        Contact Body Part Start
+=========================================== */
+  .message-top-part {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .middle-part {
+    gap: 20px;
+  }
+  .message-btn {
+    padding: 11px 25px;
+    margin: 20px 0;
+  }
+  .message-btn:hover {
+    color: #ffffff;
+    background: #31a81c;
+    border-color: #31a81c;
+  }
+  .icon-info {
+    font-size: 29px;
+    padding-right: 30px;
+    row-gap: 46px;
+  }
+  .text-elm h5 {
+    font-size: 16px;
+  }
+  .text-info {
+    padding-left: 33px;
+  }
+  .text-elm p {
+    font-size: 13px;
+  }
+  .contact-info p {
+    padding-bottom: 8px;
+  }
+  .self-info {
+    margin-bottom: 30px;
+  }
+  /* ========================================
+        Contact Body Part End
+=========================================== */
+}
+/* ========================================
+        Extra Small Devices design End
+=========================================== */
+/* ========================================
+         Small Devices design Start
+=========================================== */
+@media (min-width: 576px) and (max-width: 767.99px) {
+  /* ========================================
+        Contact Body Part Start
+=========================================== */
+  .message-top-part {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .middle-part {
+    gap: 20px;
+  }
+  .message-btn {
+    padding: 11px 25px;
+    margin: 20px 0;
+  }
+  .message-btn:hover {
+    color: #ffffff;
+    background: #31a81c;
+    border-color: #31a81c;
+  }
+  .icon-info {
+    font-size: 29px;
+    padding-right: 30px;
+    row-gap: 46px;
+  }
+  .text-elm h5 {
+    font-size: 16px;
+  }
+  .text-info {
+    padding-left: 33px;
+  }
+  .text-elm p {
+    font-size: 13px;
+  }
+  .contact-info p {
+    padding-bottom: 8px;
+  }
+  .self-info {
+    margin-bottom: 30px;
+  }
+  /* ========================================
+        Contact Body Part End
+=========================================== */
+}
+/* ========================================
+         Small Devices design End
+=========================================== */
+/* ========================================
+         Medium Devices design Start
+=========================================== */
+@media (min-width: 768px) and (max-width: 991.99px) {
+  /* ========================================
+        Contact Body Part Start
+=========================================== */
+
+  .message-btn {
+    padding: 11px 25px;
+    margin: 20px 0;
+  }
+  .message-btn:hover {
+    color: #ffffff;
+    background: #31a81c;
+    border-color: #31a81c;
+  }
+
+  .self-info {
+    margin-bottom: 30px;
+  }
+  .icon-info {
+    font-size: 36px;
+  }
+  /* ========================================
+        Contact Body Part End
+=========================================== */
+}
+/* ========================================
+         Medium Devices design End
+=========================================== */
+/* ========================================
+         Large Devices design Start
+=========================================== */
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  /* ========================================
+        Contact Body Part Start
+=========================================== */
+  .text-elm p {
+    font-size: 13px;
+  }
+  .icon-info {
+    font-size: 33px;
+    padding-right: 30px;
+    row-gap: 49px;
+  }
+  .text-info {
+    padding-left: 31px;
+  }
+  .contact-info p {
+    padding-bottom: 16px;
+  }
+  .message-btn {
+    margin-top: 24px;
+  }
+  #contact-body{
+    margin-bottom: 20px;
+  }
+  /* ========================================
+        Contact Body Part End
+=========================================== */
+}
+/* ========================================
+         Large Devices design End
+=========================================== */
+/* ========================================
+        Extra Large Devices design Start
+=========================================== */
+@media (min-width: 1200px) and (max-width: 1399.99px) {
+  /* ========================================
+        Contact Body Part Start
+=========================================== */
+ 
+  .message-btn {
+    margin-top: 55px;
+  }
+  #contact-body{
+    margin-bottom: 20px;
+  }
+  /* ========================================
+        Contact Body Part End
+=========================================== */
+}
+/* ========================================
+        Extra Large Devices design End
+=========================================== */
+/* ========================================
+        Extra Extra Large Devices design Start
+=========================================== */
+@media (min-width: 1400px)  {
+  /* ========================================
+        Contact Body Part Start
+=========================================== */
+ 
+  .message-btn {
+    margin-top: 30px;
+  }
+  #contact-body{
+    margin-bottom: 10px;
+  }
+  /* ========================================
+        Contact Body Part End
+=========================================== */
+}
+/* ========================================
+        Extra Extra Large Devices design End
+=========================================== */
+
+/* ========================================
+          For Contact Page responsive design End
+=========================================== */
